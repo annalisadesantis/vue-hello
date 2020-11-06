@@ -7,6 +7,19 @@ var app = new Vue({
     data: {
         message: "Hello Vue!",
         immagine: "immagine-vue.png",
-        contenuto: "logo-vue.js"
+        contenuto: "logo-vue.js",
+        clicca: "Clicca qui sotto per cambiare colore del titolo",
+        bottone: "Cambia colore",
+        titolo_colore: "blu"
     },
+    methods: {
+        cambiaColore() {
+            if(this.titolo_colore == "blu"){
+                this.titolo_colore = "pink";
+            }else{
+                this.titolo_colore = "blu";
+
+            }
+        }
+    }
 });

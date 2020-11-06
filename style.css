@@ -1,0 +1,18 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pink{
+    color: #ff69b4;
+}
+
+.blu{
+    color:#00bfff;
+}
+
+button{
+    margin: 30px 0;
+}

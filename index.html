@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Vue Hello</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
         <!-- VUE -->
          <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     </head>
@@ -10,7 +12,11 @@
 
         <div id="root">
 
-            <h1>{{ message }}</h1>
+            <h1 :class="titolo_colore">{{ message }}</h1>
+
+            <span> {{ clicca }} </span>
+
+            <button @click="cambiaColore"> {{ bottone }} </button>
 
             <img :src="immagine" :alt="contenuto">
 
