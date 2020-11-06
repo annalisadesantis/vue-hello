@@ -7,7 +7,7 @@ var app = new Vue({
     data: {
         message: "Hello Vue!",
         immagine: "immagine-vue.png",
-        contenuto: "logo-vue.js",
+        contenuto_immagine: "logo-vue.js",
         clicca: "Clicca qui sotto per cambiare colore del titolo",
         bottone: "Cambia colore",
         titolo_colore: "blu"
