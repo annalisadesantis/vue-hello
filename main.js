@@ -7,5 +7,6 @@ var app = new Vue({
     data: {
         message: "Hello Vue!",
         immagine: "immagine-vue.png",
+        contenuto: "logo-vue.js"
     },
 });
